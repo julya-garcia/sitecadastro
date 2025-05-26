@@ -15,6 +15,7 @@ Layout responsivo e compatível com dispositivos móveis
 Design limpo e minimalista com uso de HTML5, CSS3 e JavaScript
 
 📁 Estrutura
+
 index.html: Estrutura principal do site
 
 style.css: Estilos modernos e responsivos
@@ -23,6 +24,7 @@ script.js: Validação e mensagens do formulário
 
 
 🚀 Tecnologias utilizadas
+
 HTML
 
 CSS
@@ -30,4 +32,5 @@ CSS
 JavaScrit
 
 📌 Objetivo
+
 Este projeto foi criado com fins educacionais e pode ser usado como base para portfólios ou sites de cursos similares. A TechMais representa uma iniciativa para promover inclusão digital com qualidade, clareza e um toque profissional.
