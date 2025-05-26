@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curso de Informática - TechMais</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+   <header>
+  <div class="container header-container">
+    <div class="logo-area">
+      <h1>TechMais</h1>
+      <p>Seu futuro digital começa aqui</p>
+    </div>
+    
+</header>
+
+  </header>
+
+  <nav>
+    <div class="container nav-container"></div>
+      <a href="#inicio" class="nav-link">Início</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#inscricao" class="nav-link">Inscreva-se</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="inicio" class="section">
+      <div class="container">
+        <h2>Bem-vindo ao TechMais</h2>
+        <p>Aprenda informática do zero do nível básico ao avançado. Cursos de Word, Excel, PowerPoint, Internet, Windows, e muito mais, com certificado incluso.</p>
+      </div>
+    </section>
+
+    <section id="sobre" class="section bg-light">
+      <div class="container">
+        <h2>Sobre o Curso</h2>
+        <p>O <strong>Curso de Informática TechMais</strong> nasceu com a missão de transformar vidas por meio da educação digital, oferecendo um ambiente acolhedor, acessível e moderno para que qualquer pessoa. independentemente da idade, formação ou experiência prévia, possa aprender a usar o computador com segurança, desenvolver habilidades práticas em programas como Word, Excel e PowerPoint, navegar com autonomia na internet, e se preparar de forma sólida para as demandas do mercado de trabalho atual, tudo isso com suporte individualizado, material exclusivo e certificado reconhecido.
+
+
+    <section id="inscricao" class="section">
+      <div class="container">
+        <h2>Inscreva-se agora</h2>
+        <form id="formCadastro" novalidate>
+          <label for="nome">Nome completo:</label>
+          <input type="text" id="nome" name="nome" required placeholder="Seu nome completo" />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com" />
+
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000" />
+
+          <label for="interesse">Conte um pouco sobre seu interesse:</label>
+          <textarea id="interesse" name="interesse" rows="4" placeholder="Ex: Quero aprender para conseguir um emprego melhor."></textarea>
+
+          <button type="submit" class="btn-submit">Enviar Inscrição</button>
+        </form>
+
+        <p class="success-message" id="mensagemSucesso" role="alert" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; 2025 TechMais. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <button id="btnTopo" title="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
